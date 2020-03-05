@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="../static/index.css">
 <script src="../static/index.js"></script>
+<script src="https://kit.fontawesome.com/e5c1f0ed28.js" crossorigin="anonymous"></script>
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -20,9 +20,7 @@
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
+    <a href="../static/brandon_hdz_resume" target="_blank" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-file-download"></i> RESUME</a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -30,7 +28,7 @@
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCHS</a>
+    <a href="../static/brandon_hdz_resume.pdf" target="_blank" class="w3-bar-item w3-button">RESUME</a>
   </div>
 </div>
 
@@ -45,33 +43,35 @@
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT ME</h3>
   <p class="w3-center"><em>I strive to maximize output by incorporating innovative technologies</em></p>
-  <p>Data drives many industries today. It is integral to know how to properly analyze and present data so such
-  industries can continue to excel. As such, I find it incumbent to familiarize  myself with sophisticated ETL
-  methodologies to grow in the data science field. Furthermore, realizing how to extrapolate, map and predict
-  data is also very important. Which, is why I intend to gain experience programming AI/ML systems.</p>
+  <p>Welcome to my website! Please feel free to download my resume <a href="../static/brandon_hdz_resume.pdf">here</a>,
+  or within the menu above at any time. I am a senior at DePaul University majoring in Computer Science with a minor in Sound Recording.
+    My expected graduation is June 2020. A couple hobbies of mine include; long distance running, hiking,
+    <a href="http://astralmatter.herokuapp.com" target="_blank">producing music</a> and making
+    <a href="http://ai-grid.herokuapp.com" target="_blank">web apps</a>.</p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <p><b><i class="fa fa-user w3-margin-right"></i>Brandon Hernandez</b></p><br>
-      <img src="../static/prof_pic350.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="233" height="350">
+      <img src="../static/prof_pic350.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Profile Picture" width="233" height="350">
     </div>
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>Data drives many industries today. It is integral to know how to properly analyze and present data so such
+      industries can continue to excel. As such, I find it incumbent to familiarize  myself with sophisticated ETL
+      methodologies to grow in the data science field. Furthermore, realizing how to extrapolate, map and predict
+      data is also very important. Which, is why I intend to gain experience in programming AI/ML systems.</p>
     </div>
   </div>
-  <p class="w3-large w3-center w3-padding-16">Enterprise Experience In:</p>
-  <p class="w3-wide"><i class="fa fa-camera"></i>Data ETL Programming</p>
+  <p class="w3-large w3-center w3-padding-16">Experience:</p>
+  <p class="w3-wide"><i class="fab fa-python"></i>Python</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
   </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Application Programming</p>
+  <p class="w3-wide"><i class="fab fa-java"></i>Java</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
   </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Version Control | Git</p>
+  <p class="w3-wide"><i class="fab fa-js-square"></i>JavaScript</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
   </div>
@@ -79,20 +79,20 @@
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16 career-stats">
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Web Applications</span><br>
-    Python, Flask
+    <span class="w3-xlarge stats">Web Development</span><br>
+    <i class="fas fa-laptop-code icon-stats"></i>
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Data Science</span><br>
-    ETL, Dashboards
+    <span class="w3-xlarge stats">Data Science</span><br>
+    <i class="fas fa-database icon-stats"></i>
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Version Control</span><br>
-    GitHub Management
+    <span class="w3-xlarge stats">Cloud Computing</span><br>
+    <i class="fab fa-aws icon-stats"></i>
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Cloud Computing</span><br>
-    AWS: EC2, RDS, ETC
+    <span class="w3-xlarge stats">Version Control</span><br>
+    <i class="fab fa-git-alt icon-stats"></i>
   </div>
 </div>
 
@@ -106,7 +106,7 @@
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+  <p class="w3-center"><em>A closer look at my projects can be viewed below<br> Feel free to view or download the pdf!</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
@@ -204,8 +204,8 @@
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
-    <a href="https://github.com/brandonhdz" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
-    <a href="https://www.linkedin.com/in/brandonhdz" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <a href="https://github.com/brandonhdz" target="_blank"><i class="fab fa-github-square w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/brandonhdz" target="_blank"><i class="fab fa-linkedin w3-hover-opacity"></i></a>
   </div>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>

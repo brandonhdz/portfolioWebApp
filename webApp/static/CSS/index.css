@@ -1,0 +1,124 @@
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
+}
+
+body, html {
+  height: 100%;
+  color: #333;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url("../../static/tri_flame.jpg");
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("../../static/prof_background.jpg");
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("../../static/lake.jpg");
+}
+
+.w3-wide {
+  letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+  cursor: pointer;
+}
+
+.stats {
+  font-weight: bold;
+}
+
+i.icon-stats-large {
+  font-size: 25px;
+}
+
+i.icon-stats-medium {
+  font-size: 20px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 700px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 220px;
+  }
+
+  .career-stats, .fas, .fa {
+    display: flex;
+  }
+
+  .w3-xlarge {
+    font-size: 14px !important;
+  }
+
+  .w3-padding-64 {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+  }
+
+  .remove-on-mobile {
+    display: none;
+  }
+
+  .pdf-viewer {
+    height: 300px;
+  }
+
+  .w3-wide {
+    letter-spacing: 8px !important;
+  }
+
+  i.icon-stats-large {
+    font-size: 18px;
+  }
+}
+.line {
+  font-family: "Courier New", Courier, monospace;
+  white-space: nowrap;
+  /*inherited font size of 24px
+  from w3-xlarge*/
+  width: 450px;
+  overflow: hidden;
+  border-right: 4px solid #00ff48;
+  color: #00ff48 !important;
+}
+
+.typing {
+  animation: typewriter 3s steps(25) 1s 1 normal both, blinkCursor 0.6s steps(12) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 450px;
+  }
+}
+@keyframes blinkCursor {
+  from {
+    border-right-color: rgba(0, 255, 64, 0.5);
+  }
+  to {
+    border-right-color: #00ff40;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

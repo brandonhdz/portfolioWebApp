@@ -20,17 +20,17 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url("../../static/tri_flame.jpg");
+  background-image: url("/images/tri_flame.jpg");
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("../../static/prof_background.jpg");
+  background-image: url("/images/prof_background.jpg");
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("../../static/lake.jpg");
+  background-image: url("/images/lake.jpg");
 }
 
 .w3-wide {
